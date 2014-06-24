@@ -1,0 +1,6 @@
+Entry.create!(name: "Julie")
+Entry.create!(name: "Pete")
+Entry.create!(name: "Maria")
+Entry.create!(name: "Doug")
+Entry.create!(name: "Karen")
+Entry.create!(name: "Rachel")

@@ -1,0 +1,25 @@
+<h1>Raffle</h1>
+
+<div ng-controller="RaffleCtrl">
+
+  <form ng-submit="addEntry()">
+    <input type="text" ng-model="newEntry.name">
+    <input type="submit" value="Add">
+  </form>
+
+  <p>
+    <ul>
+      <li ng-repeat="entry in entries">
+        {{entry.name}}
+        <span ng-show="entry.winner" ng-class="{highlight: entry == lastWinner}" class="winner">WINNER</span>
+      </li>
+    </ul>
+  </p>
+
+  <button ng-click="drawWinner()">
+    Draw Winner
+  </button>
+  <button ng-click="clearWinner()">
+    Clear Winners
+  </button>
+</div>
