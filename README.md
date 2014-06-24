@@ -1,3 +1,3 @@
 ## README ##
 
-Naaahhh, don't read this.
+Naaahhh, don't.
