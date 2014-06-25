@@ -12,6 +12,7 @@ gem 'angularjs-rails'
 gem 'ng-rails-csrf'
 gem 'quiet_assets'
 gem 'pg'
+gem 'thin'
 
 group :production do
   gem 'rails_12factor'
