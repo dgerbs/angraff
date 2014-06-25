@@ -1,0 +1,23 @@
+development:
+  adapter: postgresql
+  encoding: utf8
+  database: raffler_development
+  pool: 5
+  username: dgerbs 
+  password: mypassword
+
+test:
+  adapter: postgresql
+  encoding: utf8
+  database: raffler_test
+  pool: 5
+  username: dgerbs
+  password: mypassword
+
+production:
+  adapter: postgresql
+  encoding: utf8
+  database: raffler_production
+  pool: 5
+  username: dgerbs
+  password: mypassword
